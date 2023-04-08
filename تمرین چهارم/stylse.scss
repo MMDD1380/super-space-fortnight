@@ -1,0 +1,52 @@
+$myFont: Helvetica, sans-serif;
+$myColor: blue;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+    font-family: $myFont;
+    font-size: $myFontSize;
+    color: $myColor;
+  }
+  
+  #container {
+    width: $myWidth;
+  }
+  h1{ 
+     font-family: $myFont;
+     $myFontSize : 13px !global;
+    font-size: $myFontSize;
+    $myColor:green;
+    color : $myColor;
+    }
+  h2{
+    font-family: $myFont;
+   font-size: $myFontSize;
+   $myColor:red;
+   color : $myColor;
+  }
+  h3{    
+     font-family: $myFont;
+   font-size: $myFontSize;
+   $myColor:rgb(0, 128, 128);
+   color : $myColor;
+}
+  h4{
+    font-family: $myFont;
+   font-size: $myFontSize;
+   $myColor:rgb(102, 128, 0);
+   color : $myColor;
+  }
+  h5{
+    font-family: $myFont;
+   font-size: $myFontSize;
+   $myColor:rgb(128, 0, 26);
+   color : $myColor;
+  }
+  p{
+    font-family: $myFont;
+    $myFontSize : 15px;
+   font-size: $myFontSize;
+   $myColor:black;
+   color : $myColor;
+  }
